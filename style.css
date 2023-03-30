@@ -19,6 +19,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .menu
 {
@@ -79,13 +80,17 @@ footer{
     text-align: center;
     margin: -50%;
     flex-wrap: none; */
-    text-align: center;
+    /* text-align: center;
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
     margin: 10px;
     display: flex;
-    padding: 20px;
+    padding: 20px; */
+    flex-direction: row;
+    position: absolute;
+    top: 100px;
+    color: #fff;
  }
  h3{
     text-align: center;
